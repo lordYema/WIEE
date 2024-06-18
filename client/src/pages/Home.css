@@ -1,0 +1,61 @@
+/* src/Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background {
+  flex: 1;
+  background: url("../assets/background.jpg") no-repeat center center/cover;
+  position: relative;
+}
+
+.logo-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 2rem;
+}
+
+.logo {
+  width: 110px;
+  height: auto;
+}
+.logo1 {
+  width: 150px;
+  height: auto;
+}
+
+.welcome-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.sub-text {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  color: #ccc;
+  font-weight: normal;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 1rem;
+}

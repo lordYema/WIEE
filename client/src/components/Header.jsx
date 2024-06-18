@@ -30,12 +30,12 @@ function Header() {
         <Button className="w-12 h-10 sm:inline  " color="gray">
           <FaMoon />
         </Button>
-        <Button className="sm:inline" gradientDuoTone="purpleToBlue">
+        <Button className="sm:inline" gradientDuoTone="purpleToPink" outline>
           Sign In
         </Button>
         <Navbar.Toggle />
       </div>
-      <Navbar.Collapse>
+      <Navbar.Collapse className>
         <Navbar.Link active={path === "/"} as={"div"}>
           <Link to="/">Home</Link>
         </Navbar.Link>
